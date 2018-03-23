@@ -1,0 +1,27 @@
+{
+  "name": "recipe-box",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "gh-pages": "^1.1.0",
+    "lodash": "^4.17.5",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "styled-components": "^3.2.3",
+    "uuid": "^3.2.1"
+  },
+  "homepage": "https://evgesha0411.github.io/recipe-box/"
+}
